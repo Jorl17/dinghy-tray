@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		800968AB1DBC4F8D00B077EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800968AA1DBC4F8D00B077EE /* AppDelegate.swift */; };
+		800968AF1DBC4F8D00B077EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 800968AE1DBC4F8D00B077EE /* Assets.xcassets */; };
+		800968B21DBC4F8D00B077EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 800968B01DBC4F8D00B077EE /* Main.storyboard */; };
+		800968BD1DBC4F8D00B077EE /* dinghy_trayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800968BC1DBC4F8D00B077EE /* dinghy_trayTests.swift */; };
+		800968C81DBC4F8D00B077EE /* dinghy_trayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800968C71DBC4F8D00B077EE /* dinghy_trayUITests.swift */; };
+		800968D61DBC500500B077EE /* DinghyInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800968D51DBC500500B077EE /* DinghyInterface.swift */; };
+		800968D81DBC502200B077EE /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800968D71DBC502200B077EE /* Utils.swift */; };
+		80AB77FA1DBDAC4E00175EFF /* KeyChainSwiftDistrib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AB77F91DBDAC4E00175EFF /* KeyChainSwiftDistrib.swift */; };
+		80AB77FC1DBDAC9F00175EFF /* AskForPassword.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80AB77FB1DBDAC9F00175EFF /* AskForPassword.storyboard */; };
+		80AB77FE1DBDBE9B00175EFF /* AskForPasswordHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AB77FD1DBDBE9B00175EFF /* AskForPasswordHandler.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		800968B91DBC4F8D00B077EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8009689F1DBC4F8D00B077EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 800968A61DBC4F8D00B077EE;
+			remoteInfo = "dinghy-tray";
+		};
+		800968C41DBC4F8D00B077EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8009689F1DBC4F8D00B077EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 800968A61DBC4F8D00B077EE;
+			remoteInfo = "dinghy-tray";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		800968A71DBC4F8D00B077EE /* dinghy-tray.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dinghy-tray.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		800968AA1DBC4F8D00B077EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		800968AE1DBC4F8D00B077EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		800968B11DBC4F8D00B077EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		800968B31DBC4F8D00B077EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		800968B81DBC4F8D00B077EE /* dinghy-trayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dinghy-trayTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		800968BC1DBC4F8D00B077EE /* dinghy_trayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dinghy_trayTests.swift; sourceTree = "<group>"; };
+		800968BE1DBC4F8D00B077EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		800968C31DBC4F8D00B077EE /* dinghy-trayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dinghy-trayUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		800968C71DBC4F8D00B077EE /* dinghy_trayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dinghy_trayUITests.swift; sourceTree = "<group>"; };
+		800968C91DBC4F8D00B077EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		800968D51DBC500500B077EE /* DinghyInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DinghyInterface.swift; sourceTree = "<group>"; };
+		800968D71DBC502200B077EE /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		80AB77F91DBDAC4E00175EFF /* KeyChainSwiftDistrib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyChainSwiftDistrib.swift; sourceTree = "<group>"; };
+		80AB77FB1DBDAC9F00175EFF /* AskForPassword.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AskForPassword.storyboard; sourceTree = "<group>"; };
+		80AB77FD1DBDBE9B00175EFF /* AskForPasswordHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AskForPasswordHandler.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		800968A41DBC4F8D00B077EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		800968B51DBC4F8D00B077EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		800968C01DBC4F8D00B077EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8009689E1DBC4F8D00B077EE = {
+			isa = PBXGroup;
+			children = (
+				800968A91DBC4F8D00B077EE /* dinghy-tray */,
+				800968BB1DBC4F8D00B077EE /* dinghy-trayTests */,
+				800968C61DBC4F8D00B077EE /* dinghy-trayUITests */,
+				800968A81DBC4F8D00B077EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		800968A81DBC4F8D00B077EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				800968A71DBC4F8D00B077EE /* dinghy-tray.app */,
+				800968B81DBC4F8D00B077EE /* dinghy-trayTests.xctest */,
+				800968C31DBC4F8D00B077EE /* dinghy-trayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		800968A91DBC4F8D00B077EE /* dinghy-tray */ = {
+			isa = PBXGroup;
+			children = (
+				800968D71DBC502200B077EE /* Utils.swift */,
+				800968AA1DBC4F8D00B077EE /* AppDelegate.swift */,
+				800968AE1DBC4F8D00B077EE /* Assets.xcassets */,
+				800968B01DBC4F8D00B077EE /* Main.storyboard */,
+				800968B31DBC4F8D00B077EE /* Info.plist */,
+				800968D51DBC500500B077EE /* DinghyInterface.swift */,
+				80AB77F91DBDAC4E00175EFF /* KeyChainSwiftDistrib.swift */,
+				80AB77FB1DBDAC9F00175EFF /* AskForPassword.storyboard */,
+				80AB77FD1DBDBE9B00175EFF /* AskForPasswordHandler.swift */,
+			);
+			path = "dinghy-tray";
+			sourceTree = "<group>";
+		};
+		800968BB1DBC4F8D00B077EE /* dinghy-trayTests */ = {
+			isa = PBXGroup;
+			children = (
+				800968BC1DBC4F8D00B077EE /* dinghy_trayTests.swift */,
+				800968BE1DBC4F8D00B077EE /* Info.plist */,
+			);
+			path = "dinghy-trayTests";
+			sourceTree = "<group>";
+		};
+		800968C61DBC4F8D00B077EE /* dinghy-trayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				800968C71DBC4F8D00B077EE /* dinghy_trayUITests.swift */,
+				800968C91DBC4F8D00B077EE /* Info.plist */,
+			);
+			path = "dinghy-trayUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		800968A61DBC4F8D00B077EE /* dinghy-tray */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 800968CC1DBC4F8D00B077EE /* Build configuration list for PBXNativeTarget "dinghy-tray" */;
+			buildPhases = (
+				800968A31DBC4F8D00B077EE /* Sources */,
+				800968A41DBC4F8D00B077EE /* Frameworks */,
+				800968A51DBC4F8D00B077EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "dinghy-tray";
+			productName = "dinghy-tray";
+			productReference = 800968A71DBC4F8D00B077EE /* dinghy-tray.app */;
+			productType = "com.apple.product-type.application";
+		};
+		800968B71DBC4F8D00B077EE /* dinghy-trayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 800968CF1DBC4F8D00B077EE /* Build configuration list for PBXNativeTarget "dinghy-trayTests" */;
+			buildPhases = (
+				800968B41DBC4F8D00B077EE /* Sources */,
+				800968B51DBC4F8D00B077EE /* Frameworks */,
+				800968B61DBC4F8D00B077EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				800968BA1DBC4F8D00B077EE /* PBXTargetDependency */,
+			);
+			name = "dinghy-trayTests";
+			productName = "dinghy-trayTests";
+			productReference = 800968B81DBC4F8D00B077EE /* dinghy-trayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		800968C21DBC4F8D00B077EE /* dinghy-trayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 800968D21DBC4F8D00B077EE /* Build configuration list for PBXNativeTarget "dinghy-trayUITests" */;
+			buildPhases = (
+				800968BF1DBC4F8D00B077EE /* Sources */,
+				800968C01DBC4F8D00B077EE /* Frameworks */,
+				800968C11DBC4F8D00B077EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				800968C51DBC4F8D00B077EE /* PBXTargetDependency */,
+			);
+			name = "dinghy-trayUITests";
+			productName = "dinghy-trayUITests";
+			productReference = 800968C31DBC4F8D00B077EE /* dinghy-trayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8009689F1DBC4F8D00B077EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "João Ricardo Lourenço";
+				TargetAttributes = {
+					800968A61DBC4F8D00B077EE = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					800968B71DBC4F8D00B077EE = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 800968A61DBC4F8D00B077EE;
+					};
+					800968C21DBC4F8D00B077EE = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 800968A61DBC4F8D00B077EE;
+					};
+				};
+			};
+			buildConfigurationList = 800968A21DBC4F8D00B077EE /* Build configuration list for PBXProject "dinghy-tray" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8009689E1DBC4F8D00B077EE;
+			productRefGroup = 800968A81DBC4F8D00B077EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				800968A61DBC4F8D00B077EE /* dinghy-tray */,
+				800968B71DBC4F8D00B077EE /* dinghy-trayTests */,
+				800968C21DBC4F8D00B077EE /* dinghy-trayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		800968A51DBC4F8D00B077EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				800968AF1DBC4F8D00B077EE /* Assets.xcassets in Resources */,
+				80AB77FC1DBDAC9F00175EFF /* AskForPassword.storyboard in Resources */,
+				800968B21DBC4F8D00B077EE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		800968B61DBC4F8D00B077EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		800968C11DBC4F8D00B077EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		800968A31DBC4F8D00B077EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				800968D61DBC500500B077EE /* DinghyInterface.swift in Sources */,
+				80AB77FA1DBDAC4E00175EFF /* KeyChainSwiftDistrib.swift in Sources */,
+				800968AB1DBC4F8D00B077EE /* AppDelegate.swift in Sources */,
+				800968D81DBC502200B077EE /* Utils.swift in Sources */,
+				80AB77FE1DBDBE9B00175EFF /* AskForPasswordHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		800968B41DBC4F8D00B077EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				800968BD1DBC4F8D00B077EE /* dinghy_trayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		800968BF1DBC4F8D00B077EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				800968C81DBC4F8D00B077EE /* dinghy_trayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		800968BA1DBC4F8D00B077EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 800968A61DBC4F8D00B077EE /* dinghy-tray */;
+			targetProxy = 800968B91DBC4F8D00B077EE /* PBXContainerItemProxy */;
+		};
+		800968C51DBC4F8D00B077EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 800968A61DBC4F8D00B077EE /* dinghy-tray */;
+			targetProxy = 800968C41DBC4F8D00B077EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		800968B01DBC4F8D00B077EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				800968B11DBC4F8D00B077EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		800968CA1DBC4F8D00B077EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		800968CB1DBC4F8D00B077EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		800968CD1DBC4F8D00B077EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "dinghy-tray/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.dighytray.dinghy-tray";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		800968CE1DBC4F8D00B077EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "dinghy-tray/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.dighytray.dinghy-tray";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		800968D01DBC4F8D00B077EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "dinghy-trayTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.dighytray.dinghy-trayTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dinghy-tray.app/Contents/MacOS/dinghy-tray";
+			};
+			name = Debug;
+		};
+		800968D11DBC4F8D00B077EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "dinghy-trayTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.dighytray.dinghy-trayTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dinghy-tray.app/Contents/MacOS/dinghy-tray";
+			};
+			name = Release;
+		};
+		800968D31DBC4F8D00B077EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "dinghy-trayUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.dighytray.dinghy-trayUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "dinghy-tray";
+			};
+			name = Debug;
+		};
+		800968D41DBC4F8D00B077EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "dinghy-trayUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.dighytray.dinghy-trayUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "dinghy-tray";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		800968A21DBC4F8D00B077EE /* Build configuration list for PBXProject "dinghy-tray" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				800968CA1DBC4F8D00B077EE /* Debug */,
+				800968CB1DBC4F8D00B077EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		800968CC1DBC4F8D00B077EE /* Build configuration list for PBXNativeTarget "dinghy-tray" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				800968CD1DBC4F8D00B077EE /* Debug */,
+				800968CE1DBC4F8D00B077EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		800968CF1DBC4F8D00B077EE /* Build configuration list for PBXNativeTarget "dinghy-trayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				800968D01DBC4F8D00B077EE /* Debug */,
+				800968D11DBC4F8D00B077EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		800968D21DBC4F8D00B077EE /* Build configuration list for PBXNativeTarget "dinghy-trayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				800968D31DBC4F8D00B077EE /* Debug */,
+				800968D41DBC4F8D00B077EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8009689F1DBC4F8D00B077EE /* Project object */;
+}
