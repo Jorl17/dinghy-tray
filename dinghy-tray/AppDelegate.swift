@@ -25,6 +25,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             
             DispatchQueue.main.async {
                 self.menuAppStatus.title = "Dinghy-tray status: OK";
+                self.updateInBackground();
                 print(out);
             }
         }
@@ -37,6 +38,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             
             DispatchQueue.main.async {
                 self.menuAppStatus.title = "Dinghy-tray status: OK";
+                self.updateInBackground();
             }
         }
     }
@@ -48,6 +50,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             
             DispatchQueue.main.async {
                 self.menuAppStatus.title = "Dinghy-tray status: OK";
+                self.updateInBackground();
             }
         }
     }
@@ -121,7 +124,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         updateStatus();
         menuAppStatus.title = "Dinghy-tray status: OK";
-        Timer.scheduledTimer(timeInterval: 5.0, target: self, selector: #selector(updateInBackground), userInfo: nil, repeats: true);
+        Timer.scheduledTimer(timeInterval: 5*60.0, target: self, selector: #selector(updateInBackground), userInfo: nil, repeats: true);
         
         statusBarItem = statusBar.statusItem(withLength: -1)
         statusBarItem.menu = menu
